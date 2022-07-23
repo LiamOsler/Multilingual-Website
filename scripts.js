@@ -31,7 +31,7 @@ const articleContents = createChild(articleCol, "row", {className : "col-12"});
 
 
 let globalData;
-const dataURL = 'https://raw.githubusercontent.com/LiamOsler/sample-json/main/data_multilingual_website.json';
+const dataURL = './data.json';
  
 fetchData = async (URL) =>{
   const response = fetch(URL);
