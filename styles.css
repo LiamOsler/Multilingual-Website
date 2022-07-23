@@ -1,0 +1,88 @@
+*{
+    font-family: sans-serif;
+}
+h1{
+    color: white;
+    margin: 0;
+}
+h2{
+    color: green;
+    margin: 0;
+}
+
+.container{
+    max-width : 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row{
+    display: flex;
+    flex-direction : row;
+    flex-wrap: wrap; 
+    gap: 1em;
+    gap: 1em 2em;
+    row-gap: 0em;
+    column-gap: 1em;
+
+}
+
+.content-row{
+    box-shadow: 1em 1em 3em 1em rgba(0,0,0,0.2);
+    border-radius : .1em;
+    border: .1em solid lightgrey;
+}
+
+.language-row{
+    text-align : right;
+}
+
+.col-12{
+    width : 100%;
+    padding: 1em;
+}
+
+.col-6{
+    width : 50%;
+    padding: 1em;
+}
+
+.col h1{
+    text-align: center;
+}
+
+.col h2{
+    text-align: center;
+}
+
+.btn{
+    border-radius : .3em;
+    border: .1em solid lightgrey;
+    padding: 1em 1em;
+}
+
+.btn:hover{
+    background-color: #eee;
+    box-shadow:  0 2em 2em rgba(0, 0, 0, 0.034);
+    cursor: pointer;
+}
+
+.jumbotron{
+    background-color: green;
+    box-shadow: inset -2em 0 5em #000000;
+}
+
+.language-icon{
+    height: 1.5em;
+    width: 1.5em;
+    border-radius : 50%;
+    object-fit: cover;
+    margin-left: .2em;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.language-icon:hover{
+   height: 2em;
+   width: 2em;
+}
